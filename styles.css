@@ -1,0 +1,168 @@
+.header{
+    position: absolute;
+    width: 380px;
+    left: 100px;
+    top: 20px;
+    z-index: -1;
+    opacity: 0.50;
+}
+
+.title {
+    color: #b67fdb;
+    font-size: 95px;
+    font-family: monospace;
+    font-weight: bold;
+    margin-left: 350px;
+    margin-bottom: 100px;
+
+}
+.container {
+    position: relative;
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+}
+
+.image {
+    display:block;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .75s ease;
+    background-color: #b67fdb;
+    border-radius: 8px;
+
+}
+
+.container:hover .overlay {
+    opacity: 1;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: relative;
+    font-family: monospace;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.float {
+    display: inline-flex;
+    text-align: center;
+}
+
+.button {
+    background-color: #b67fdb; 
+    border: none;
+    color: #dfdee0;
+    font-size: 20px;
+    padding: 15px 30px;
+    margin: 15px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
+    display: inline-block;
+    -webkit-appearance: normal;
+    word-wrap: break-word;
+}
+
+.button:hover {
+    background-color: #dfdee0;
+}
+
+body {
+    background-color: #dfdee0;
+}
+
+h2 {
+    font-size: 40px;
+    color: dimgray;
+    font-family: monospace;
+    margin: 0px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 40px;
+    color: dimgray;
+    font-family: monospace;
+    text-align: center;
+    margin: 100px;
+}
+
+a {
+    color: dimgray;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: monospace;
+    font-size; 100%;
+}
+
+a:hover {
+    color: #b67fdb; 
+    text-decoration: none;
+}
+
+p {
+    font-size: 20px;
+    color: dimgray;
+    font-family: monospace;
+    margin: 0px;
+    text-align: center;
+}
+
+iframe {
+    padding-bottom: 100px;
+}
+
+form {
+    display: block;
+    text-align: center;
+    padding: 10px;
+}
+
+label {
+    font-family: monospace;
+    font-size: 15px;
+    color: dimgray;
+}
+
+textarea {
+    border-color: #b67fdb;
+    border-radius: 8px;
+    height: 50px;
+    width: 250px;
+}
+
+input {
+     border-color: #b67fdb;
+    border-radius: 8px;
+    height: 25px;
+    width: 150px;
+    margin: 5px;
+}
+
+footer {
+    display: block;
+    text-align: center;    
+    margin-top: 100px;
+}
+
+
